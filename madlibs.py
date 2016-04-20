@@ -49,14 +49,17 @@ def show_game_form():
 
 @app.route("/madlib")
 def show_madlib():
-    name = request.args.get("person")
+
     noun = request.args.get("noun")
-    color = request.args.get("color")
+    place = request.args.get("place")
+    food = request.args.get("food")
     adjective = request.args.get("adjective")
+    street = request.args.get("street")
+    action = request.args.get("action")
 
 
-
-    return render_template("madlib.html", person = name, noun = noun, color = color, adjective = adjective )
+    return render_template("madlib.html", noun = noun, action = action, adjective = adjective, place=place,
+    food=food, street=street )
 
 
 

@@ -5,11 +5,55 @@
 </head>
 <body>
    <form action="/madlib">
-        What's your name? <input type="text" name="person"> <br>
-        What's your favorite color? <input type="text" name="color"><br>
-        Give me a noun!<input type="text" name="noun"><br>
-        Give me an adjective!<input type="text" name="adjective"><br>
-        <input type="submit">
-    </form> 
+
+            Name a person:
+            <select name="noun">
+                <option value="Jesse">Jesse</option>
+                <option value="Apple">Apple</option>
+                <option value="Booger">Booger</option>
+                <option value="Rocket Ship">Rocket Ship</option>
+            </select><br>
+            Name a place:
+             <select name="place">
+                <option value="San Francisco">San Francisco</option>
+                <option value="Oakland">Oakland</option>
+                <option value="UC Berkeley">UC Berkeley</option>
+                <option value="The Sandbox">The Sandbox</option>
+            </select><br>
+            Name an adjective:
+            <select name="adjective">
+                <option value="Hairy">Hairy</option>
+                <option value="Scary">Scary</option>
+                <option value="Gorgeous">Gorgeous</option>
+                <option value="Funny">Funny</option>
+            </select><br>
+            Name a food-item(singular):
+             <select name="food">
+                <option value="Super Burrito">Super Burrito</option>
+                <option value="Otter Pop">Otter Pop</option>
+                <option value="Choco Taco">Choco Taco</option>
+                <option value="Mac and Cheese">Mac and Cheese</option>
+            </select><br>
+             Name a street:
+            <select name="street">
+                <option value="Canary">Canary</option>
+                <option value="Sutter">Sutter</option>
+                <option value="Chicken Dinner">Chicken Dinner</option>
+                <option value="Old Guy">Old Guy</option>
+            </select><br>
+            Name an action:
+             <select name="action">
+                <option value="run"> run </option>
+                <option value="dance">dance</option>
+                <option value="fart">fart</option>
+                <option value="squat">squat</option>
+            </select><br>
+
+
+
+    <input type="submit"> 
+    
+    </form>
+     
 </body>
 </html>
